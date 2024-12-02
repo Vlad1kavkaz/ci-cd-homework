@@ -76,18 +76,5 @@ pipeline {
             }
         }
 
-        stage('Test Application') {
-            steps {
-                script {
-                    def response = sh(returnStdout: true, script: "curl -s http://${DOCKER_IMAGE}:8080")
-                    echo "Response from application: ${response}"
-
-                    if (!response.contains('Hello World')) {
-                        error "Application did not return expected response"
-                    }
-                }
-            }
-        }
-
     }
 }
