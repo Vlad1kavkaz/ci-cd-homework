@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout Repository') {
             steps {
-                git branch: "${env.GIT_BRANCH}", url: "${REPO_URL}"
+                git branch: 'hw', url: "${REPO_URL}"
             }
         }
 
