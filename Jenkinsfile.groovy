@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout Repository') {
             steps {
-                git branch: 'master', url: "${REPO_URL}"
+                git branch: "${env.GIT_BRANCH}", url: "${REPO_URL}"
             }
         }
 
@@ -82,5 +82,21 @@ pipeline {
                 }
             }
         }
+
+        stage('Test Application') {
+            steps {
+                script {
+                    // Выполняем запрос к приложению
+                    def response = sh(returnStdout: true, script: 'curl -s http://localhost:8080')
+                    echo "Response from application: ${response}"
+
+                    // Проверяем, содержит ли ответ ожидаемую строку
+                    if (!response.contains('Hello World')) {
+                        error "Application did not return expected response"
+                    }
+                }
+            }
+        }
+
     }
 }
