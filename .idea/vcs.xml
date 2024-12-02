@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../AiSD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../AiSKA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Booking-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DH-HW2-multithreading/homework_2-multithreading-" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DH_HW2/homework_2-multithreading-" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DH_HW_Collection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../HW3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../HW4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../HW_docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Tinkoff-Tasks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../java-course-2023-backend-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../kafka-article" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../lb-MO" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../lections" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pet-book" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../spring" vcs="Git" />
+  </component>
+</project>
